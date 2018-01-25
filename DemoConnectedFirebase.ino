@@ -66,6 +66,8 @@ void loop() {
     Serial.print("Success Connected Firebase Times ==>");
     Serial.println(Firebase.getInt("myTimes"));
 
+    intIndex = Firebase.getInt("myTimes");
+
     intIndex++;
     delay(500);
 
