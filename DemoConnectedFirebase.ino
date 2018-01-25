@@ -83,7 +83,7 @@ void loop() {
 
     intSwitch = Firebase.getInt("Switch");
 
-  if(intSwitch==1){
+  if(intSwitch==0){
     //  for myOutput
       digitalWrite(myOutput, LOW);   // turn the LED on (HIGH is the voltage level) 
   }
